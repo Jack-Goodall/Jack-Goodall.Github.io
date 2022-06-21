@@ -1,0 +1,85 @@
+<html>
+    <head>
+        <title>sussy.mp3</title>
+        <link href="style.css" rel="stylesheet">
+        <script src="jquery.min.js"></script> <!-- ...or whereever you have jquery stored -->
+    <script> 
+    $(function(){
+      $("#sidebar").load("sidenav.html"); 
+    });
+    </script> 
+
+    </head>
+
+
+    <style>
+      body{
+        background-image:url(bannerBlured.jpg);
+        background-position:center;
+        background-repeat:no-repeat;
+        background-size: cover;
+      }
+        
+    </style>
+    
+    
+<body>
+  
+<!-- its the navbar innit bruv-->
+<div class="sidenav" id="mySidebar" >
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+  <a href="index.html">Home</a>
+  <a href="Information.html">Information </a>
+  <a href="ARpage.html">AR </a>
+  <a href="contact.html">Contact  </a>
+</div>
+
+    
+    
+    
+    
+<!-- Page content -->
+<div class="main" id="main">
+    <div class="topbar">
+    <button class="openbtn" onclick="openNav()">&#9776;</button>
+    </div>
+    <br>
+    <div class ="titlebar">
+      
+        <h1>info</h1>
+    </div>
+    <div class="aligncenter">
+      
+    <p>Kelham island is Located in one of the city’s oldest industrial districts
+    <p>The museum stands on a man-made island over 900 years old. Kelham Island Museum was opened in 1982 to house the objects, pictures and archive material representing Sheffield’s industrial story. 
+    <p>Our interactive galleries tell the story from light trades and skilled workmanship to mass production and what it was like to live and work in Sheffield during the Industrial Revolution. 
+    <p>Follow the growth of the steel city through the Victorian Era and two world wars to see how steelmaking forged both the city of today and the world</p>
+        
+    </div>
+    <p> version 1.5
+</div>
+</body>
+
+    
+    
+    
+    
+</html>
+
+
+
+
+<script>
+    
+//its the navbar innit bruv 
+function openNav() {
+  document.getElementById("mySidebar").style.width = "400px";
+  document.getElementById("main").style.marginLeft = "400px";
+}
+
+/* Set the width of the sidebar to 0 and the left margin of the page content to 0 */
+function closeNav() {
+  document.getElementById("mySidebar").style.width = "0";
+  document.getElementById("main").style.marginLeft = "0";
+}
+</script>
